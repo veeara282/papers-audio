@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:podcast="https://podcastindex.org/namespace/1.0"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <atom:link href="https://veeara282.github.io/papers-audio/feed.rss" rel="self" type="application/rss+xml" />
+    <title>Papers in Audio Format</title>
+    <description>Research papers in audio format.</description>
+    <link>https://github.com/veeara282/papers-audio</link>
+    <language>en-us</language>
+    <itunes:category text="Technology" />
+    <itunes:explicit>false</itunes:explicit>
+    <podcast:locked>no</podcast:locked>
+    <podcast:guid>5c1b9bb4-f8ed-4ba5-b1b5-b94ee0c44dfc</podcast:guid>
+    <itunes:author>veeara282</itunes:author>
+
+    <item>
+      <title>Decision Transformer: Reinforcement Learning via Sequence Modeling</title>
+      <enclosure
+        length="29895346"
+        type="audio/mpeg"
+        url="https://veeara282.github.io/papers-audio/decision_transformer.mp3" />
+      <guid isPermaLink="true">https://arxiv.org/abs/2106.01345v2</guid>
+      <link>https://arxiv.org/abs/2106.01345v2</link>
+      <description><![CDATA[<p>Abstract: We introduce a framework that abstracts
+      Reinforcement Learning (RL) as a sequence modeling problem. This allows us to draw
+      upon the simplicity and scalability of the Transformer architecture, and
+      associated advances in language modeling such as GPT-x and BERT. In particular, we
+      present Decision Transformer, an architecture that casts the problem of RL as
+      conditional sequence modeling. Unlike prior approaches to RL that fit value
+      functions or compute policy gradients, Decision Transformer simply outputs the
+      optimal actions by leveraging a causally masked Transformer. By conditioning an
+      autoregressive model on the desired return (reward), past states, and actions, our
+      Decision Transformer model can generate future actions that achieve the desired
+      return. Despite its simplicity, Decision Transformer matches or exceeds the
+      performance of state-of-the-art model-free offline RL baselines on Atari, OpenAI
+      Gym, and Key-to-Door tasks.</p>]]></description>
+      <itunes:duration>3205</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+  </channel>
+</rss>
